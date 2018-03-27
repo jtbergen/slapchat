@@ -1,0 +1,123 @@
+[debug] [2018-03-24T20:10:26.334Z] ----------------------------------------------------------------------
+[debug] [2018-03-24T20:10:26.337Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\josep\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-24T20:10:26.337Z] CLI Version:   3.17.7
+[debug] [2018-03-24T20:10:26.337Z] Platform:      win32
+[debug] [2018-03-24T20:10:26.337Z] Node Version:  v8.10.0
+[debug] [2018-03-24T20:10:26.337Z] Time:          Sat Mar 24 2018 13:10:26 GMT-0700 (US Mountain Standard Time)
+[debug] [2018-03-24T20:10:26.337Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-24T20:10:26.349Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-24T20:10:26.349Z] > authorizing via signed-in user
+[debug] [2018-03-24T20:10:26.351Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-24T20:10:26.351Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/1wJj_h9G3TsH1qsnnffSGUwzmoRM-4rtH5l82yf67hU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Mar 24 2018 13:10:26 GMT-0700 (US Mountain Standard Time)
+[debug] [2018-03-24T20:10:26.589Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-24T20:10:26.621Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/slapchat-faec8  
+  
+ Sat Mar 24 2018 13:10:26 GMT-0700 (US Mountain Standard Time)
+[debug] [2018-03-24T20:10:27.146Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-24T20:10:27.147Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/slapchat-faec8/tokens  
+  
+ Sat Mar 24 2018 13:10:27 GMT-0700 (US Mountain Standard Time)
+[debug] [2018-03-24T20:10:27.525Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-24T20:10:27.526Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/slapchat-faec8  
+  
+ Sat Mar 24 2018 13:10:27 GMT-0700 (US Mountain Standard Time)
+[debug] [2018-03-24T20:10:27.997Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\josep\Desktop\slapchat\slapchat'...
+[info] 
+[debug] [2018-03-24T20:10:27.999Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/449892369185/clients/_:getWebAppConfig  
+  
+ Sat Mar 24 2018 13:10:27 GMT-0700 (US Mountain Standard Time)
+[debug] [2018-03-24T20:10:28.472Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-03-24T22:21:19.427Z] ----------------------------------------------------------------------
+[debug] [2018-03-24T22:21:19.429Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\josep\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-24T22:21:19.429Z] CLI Version:   3.17.7
+[debug] [2018-03-24T22:21:19.429Z] Platform:      win32
+[debug] [2018-03-24T22:21:19.429Z] Node Version:  v8.10.0
+[debug] [2018-03-24T22:21:19.430Z] Time:          Sat Mar 24 2018 15:21:19 GMT-0700 (US Mountain Standard Time)
+[debug] [2018-03-24T22:21:19.430Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-24T22:21:19.444Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-24T22:21:19.445Z] > authorizing via signed-in user
+[debug] [2018-03-24T22:21:19.447Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-24T22:21:19.448Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/1wJj_h9G3TsH1qsnnffSGUwzmoRM-4rtH5l82yf67hU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Mar 24 2018 15:21:19 GMT-0700 (US Mountain Standard Time)
+[debug] [2018-03-24T22:21:19.667Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-24T22:21:19.706Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/slapchat-faec8  
+  
+ Sat Mar 24 2018 15:21:19 GMT-0700 (US Mountain Standard Time)
+[debug] [2018-03-24T22:21:20.192Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-24T22:21:20.193Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/slapchat-faec8/tokens  
+  
+ Sat Mar 24 2018 15:21:20 GMT-0700 (US Mountain Standard Time)
+[debug] [2018-03-24T22:21:20.648Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-24T22:21:20.650Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/slapchat-faec8  
+  
+ Sat Mar 24 2018 15:21:20 GMT-0700 (US Mountain Standard Time)
+[debug] [2018-03-24T22:21:21.150Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\josep\Desktop\slapchat\slapchat'...
+[info] 
+[debug] [2018-03-24T22:21:21.157Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/449892369185/clients/_:getWebAppConfig  
+  
+ Sat Mar 24 2018 15:21:21 GMT-0700 (US Mountain Standard Time)
+[debug] [2018-03-24T22:21:21.882Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-03-27T00:45:38.788Z] ----------------------------------------------------------------------
+[debug] [2018-03-27T00:45:38.791Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\josep\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-27T00:45:38.791Z] CLI Version:   3.17.7
+[debug] [2018-03-27T00:45:38.791Z] Platform:      win32
+[debug] [2018-03-27T00:45:38.791Z] Node Version:  v8.10.0
+[debug] [2018-03-27T00:45:38.792Z] Time:          Mon Mar 26 2018 17:45:38 GMT-0700 (US Mountain Standard Time)
+[debug] [2018-03-27T00:45:38.792Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-27T00:45:38.817Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-27T00:45:38.818Z] > authorizing via signed-in user
+[debug] [2018-03-27T00:45:38.821Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-27T00:45:38.821Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/1wJj_h9G3TsH1qsnnffSGUwzmoRM-4rtH5l82yf67hU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Mar 26 2018 17:45:38 GMT-0700 (US Mountain Standard Time)
+[debug] [2018-03-27T00:45:39.042Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-27T00:45:39.074Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/slapchat-faec8  
+  
+ Mon Mar 26 2018 17:45:39 GMT-0700 (US Mountain Standard Time)
+[debug] [2018-03-27T00:45:39.569Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-27T00:45:39.570Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/slapchat-faec8/tokens  
+  
+ Mon Mar 26 2018 17:45:39 GMT-0700 (US Mountain Standard Time)
+[debug] [2018-03-27T00:45:39.930Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-27T00:45:39.931Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/slapchat-faec8  
+  
+ Mon Mar 26 2018 17:45:39 GMT-0700 (US Mountain Standard Time)
+[debug] [2018-03-27T00:45:40.428Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\josep\Desktop\slapchat\slapchat'...
+[info] 
+[debug] [2018-03-27T00:45:40.431Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/449892369185/clients/_:getWebAppConfig  
+  
+ Mon Mar 26 2018 17:45:40 GMT-0700 (US Mountain Standard Time)
+[debug] [2018-03-27T00:45:40.900Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
